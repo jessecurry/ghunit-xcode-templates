@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>AllowedTypes</key>
+        <array>
+            <string>public.objective-c-source</string>
+        </array>
+        <key>DefaultCompletionName</key>
+        <string>Test</string>
+        <key>Description</key>
+        <string>A GHUnit Test Case</string>
+        <key>Kind</key>
+        <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+        <key>MainTemplateFile</key>
+        <string>___FILEBASENAME___.m</string>
+        <key>Platforms</key>
+        <array>
+            <string>com.apple.platform.iphoneos</string>
+        </array>
+        <key>Options</key>
+        <array>
+            <dict>
+                <key>Default</key>
+                <string/>
+                <key>Description</key>
+                <string>What would you like to test?</string>
+                <key>Identifier</key>
+                <string>cutClass</string>
+                <key>Name</key>
+                <string>Test case for</string>
+                <key>Required</key>
+                <true/>
+                <key>NotPersisted</key>
+                <true/>
+                <key>Type</key>
+                <string>text</string>
+            </dict>
+            <dict>
+                <key>Default</key>
+                <string>___VARIABLE_cutClass:identifier___Test</string>
+                <key>Identifier</key>
+                <string>productName</string>
+                <key>Type</key>
+                <string>static</string>
+            </dict>
+        </array>
+        <key>Summary</key>
+        <string>A GHUnit Test Case</string>
+    </dict>
+</plist>
